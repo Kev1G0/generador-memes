@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editor de Texto en Canvas</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<div class="editor">
+  <canvas id="canvas"></canvas>
+  <div class="controles">
+    <div class="estilo">
+      <h5>Estilos de Texto</h5>
+      <button id="boldBtn">Negrita</button>
+      <button id="italicBtn">Cursiva</button>
+      <button id="uppercaseBtn">Mayúsculas</button>
+      <button id="lowercaseBtn">Minúsculas</button>
+    </div>
+
+    <label for="texto">Texto:</label>
+    <input type="text" id="texto" placeholder="Escribe tu texto aquí">
+    <label for="fuente">Fuente:</label>
+    <select id="fuente">
+      <option value="Arial">Arial</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Georgia">Georgia</option>
+    </select>
+    <input type="text" id="nuevaFuente" placeholder="Nombre de la fuente en Google Fonts">
+    <button id="agregarFuente">Agregar Fuente</button>
+
+    <label for="tamaño">Tamaño:</label>
+    <input type="number" id="tamaño" value="20">
+    <label for="color">Color:</label>
+    <input type="color" id="color" value="#000000">
+
+    <input type="file" id="imagenInput" accept="image/png, image/jpeg">
+    <input type="text" id="urlInput" placeholder="Ingrese URL de la imagen">
+    <button id="cargarURLBtn">Cargar desde URL</button>
+
+    
+    <button id="descargarBtn">Descargar Imagen</button>
+
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+

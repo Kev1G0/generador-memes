@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.editor {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Evita que el contenido desborde el contenedor */
+}
+
+.controles {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilo para la sección de estilos */
+.estilo {
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+/* Estilo para el encabezado de la sección */
+.estilo h5 {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="color"] {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+canvas {
+  margin: auto;
+  border: 2px solid #000;
+  max-width: 100%; /* Ajusta el ancho máximo del canvas al tamaño del contenedor */
+  max-height: 100%; /* Ajusta el alto máximo del canvas al tamaño del contenedor */
+  width: auto; /* Permite que el ancho del canvas se ajuste automáticamente */
+  height: auto; /* Permite que el alto del canvas se ajuste automáticamente */
+}
+
+
+
+
+
